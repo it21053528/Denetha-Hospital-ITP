@@ -1,0 +1,84 @@
+.error
+{
+    font-size: 13px;
+    color: red;
+
+}
+.table_table-striped1 th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+      margin-right: auto;
+    background-color: transparent;
+    color: rgb(18, 18, 18);
+    /* padding: 12px; */
+    font-size: 20px;
+    
+}
+
+#columnwidth{
+    width: 20px;
+}
+.upbackground
+{
+    box-sizing: border-box;
+    width: flex;
+    height: 300px;
+    margin-top: 60px;
+    background: #BDD1F9;
+    opacity: 1;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.text
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.middlebackground
+{
+    box-sizing: border-box;
+    width: flex;
+    height: 100px;
+    background: #7294d8;
+    opacity: 0.6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.description
+{
+    
+font-style: normal;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #737B7D;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.pargraphy
+
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 400px;
+    height: 72px;
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
