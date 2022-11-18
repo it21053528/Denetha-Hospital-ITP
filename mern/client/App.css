@@ -1,0 +1,257 @@
+.App {
+  text-align: center;
+  animation: fadein 0.3s ease-in;
+}
+.basic {
+  text-align: center;
+  animation: fadetranslate 0.3s ease-in;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.round-edge-div {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 450px;
+  box-shadow: 2px 2px 4px #989898;
+}
+
+.round-edge-div-non-static {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 30px;
+  width: 300px;
+  height: 360px;
+  box-shadow: 2px 2px 4px #989898;
+}
+
+.logo-img {
+  width: 45%;
+  border-radius: 100px;
+  box-shadow: 2px 2px 4px #00000057;
+}
+.header-logo {
+  transform: translate(180%, 150%) scale(370%);
+  width: 50%;
+  border-radius: 100px;
+  box-shadow: 0.7px 0.7px 1px #00000057;
+}
+#logo {
+  flex-basis: 80px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+#header-design-container {
+  overflow: hidden;
+  flex-basis: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+#header-design {
+  width: 50%;
+  transform: scale(150%) translate(55%, 10%);
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(193, 193, 193);
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 15px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: 0px;
+  color: white;
+  background-color: #2a628f;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #989898;
+  font-size: medium;
+  font-family: "Calibri";
+}
+.button:hover {
+  background-color: #1f3e58;
+  box-shadow: 2px 2px 4px #989898;
+}
+.button:disabled {
+  background-color: #6a93b5;
+  color: rgba(253, 253, 253, 0.471);
+}
+.button:active {
+  transform: scale(92%);
+}
+.navButton {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  height: 20%;
+  animation: fadein 0.5s ease-in;
+}
+.flex-container {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+}
+
+.navlink {
+  margin-left: 8%;
+  font-weight: lighter;
+}
+.active {
+  font-weight: bolder;
+}
+.right-align {
+  text-align: right;
+}
+.left-align {
+  text-align: left;
+}
+#profile {
+  background-color: #ffffff00;
+  display: flex;
+  flex-basis: 15%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#username {
+  color: white;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  white-space: nowrap;
+}
+#userRole {
+  color: white;
+  font-weight: lighter;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+#userinfo {
+  margin-top: 20px;
+}
+
+#profilePic {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+
+.error-msg {
+  height: 25px;
+  transition: all 0.5s;
+  font-weight: lighter;
+  animation: fadetranslate 0.5s ease-in;
+}
+
+.thin-text {
+  font-weight: lighter;
+  margin: 0%;
+}
+.bold-text {
+  font-weight: bold;
+  margin: 0%;
+}
+.loading {
+  margin: auto;
+  border: 6px solid #9c9c9c;
+  border-radius: 50%;
+  border-top: 6px solid #ffffff;
+  height: 15px;
+  width: 15px;
+  background-color: #00ada400;
+  animation: spin 1s infinite ease-in-out;
+}
+#addAccount {
+  text-align: center;
+  padding: 2%;
+  width: 30%;
+  height: 60%;
+  box-shadow: 2px 2px 4px #989898;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#navbar {
+  margin-top: 2.5%;
+}
+#user-account {
+  margin-top: 60px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.message {
+  color: rgba(0, 0, 0, 0.396);
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  width: 90%;
+}
+.title {
+  font-size: large;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadetranslate {
+  from {
+    opacity: 0;
+    transform: translate(0%, -3%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
