@@ -1,0 +1,136 @@
+.error
+{
+    font-size: 13px;
+    color: red;
+
+}
+/* th
+{
+    background-color:#7f858c ;
+}
+td
+{
+    background-color: #ffffff;
+} */
+.upbackground
+{
+    box-sizing: border-box;
+    width: flex;
+    height: 300px;
+    margin-top: 60px;
+    background: #BDD1F9;
+    opacity: 1;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.text
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.middlebackground
+{
+    box-sizing: border-box;
+    width: flex;
+    height: 100px;
+    background: #7294d8;
+    opacity: 0.6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.description
+{
+    
+font-style: normal;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #737B7D;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.pargraphy
+{
+    align: center;
+}
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 400px;
+    height: 72px;
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
+.content-table
+{
+    border-collapse: collapse;
+    margin: 0 100px;
+    align-self: center;
+    font-size: 0.9em;
+    min-width:600px ;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+   
+    font-weight: normal;
+}
+.content-table th ,
+.content-table td
+{
+    font-size: 1em;
+    padding: 12p 15px;
+
+}
+
+.content-table tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr :nth-of-type(even)
+{
+    background-color:#f3f3f3 ;
+}
+.content-table tbody tr:last-of-type
+{
+    border-bottom: 2px solid #009879;
+}
+.content-table tbody tr :hover
+{
+
+    color: #009879;
+
+}
+.arrange
+{
+    margin-left: 250px;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #989898;
+    position: absolute;
+}
